@@ -19,6 +19,10 @@ Gem::Specification.new do |spec|
   spec.executables   = "randomua"
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "trollop"
+  spec.add_dependency "colorize"
+  spec.add_dependency "user_agent_randomizer"
+
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"

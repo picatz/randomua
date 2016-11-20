@@ -1,4 +1,3 @@
-require 'pry'
 require 'trollop'
 require 'colorize'
 require 'user_agent_randomizer'
@@ -8,7 +7,6 @@ module Randomua
   VERSION = "1.0.0"
 
   def self.run_application!
-
     # Default to a help menu
     foo = ARGV[0] || ARGV[0] = '-h'
 
@@ -50,9 +48,6 @@ module Randomua
     else
       puts UserAgentRandomizer::UserAgent.fetch.string
     end
-
   end
-
-
 
 end
