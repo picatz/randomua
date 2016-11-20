@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'randomua'
+
+Randomua.run_application!
