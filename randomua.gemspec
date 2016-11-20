@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A command-line application to generate random user agent strings.}
   spec.description   = %q{A command-line application to generate random user agent strings. Acting as a command-line interface to the user-agent-randomizer gem without the need to do any ruby programming.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/picatz/randomua"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
