@@ -5,10 +5,12 @@ require 'docopt'
 
 doc = <<~DOCOPT
   randomua (random user agent) | Generate a random user agent string.
+
   Usage:
     randomua [options]
-    haiti -h | --help
-    haiti --version
+    randomua -h | --help
+    randomua --version
+
   Options:
     -c, --crawler            Gereate a random crawler user agent string
     -d, --desktop-browser    Gereate a random desktop browser user agent string
@@ -25,6 +27,7 @@ doc = <<~DOCOPT
     -t, --other              Gereate a random other user agent string
     -s, --version            Print version and exit
     -h, --help               Show this message
+
   Examples:
     randomua -d
 DOCOPT
